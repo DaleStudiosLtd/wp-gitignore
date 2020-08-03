@@ -1,0 +1,25 @@
+.vscode
+.idea
+
+# Ignore plugins
+wp-content/plugins/*
+!wp-content/plugins/.gitkeep
+!wp-content/plugins/index.php
+
+# Ignore uploads
+wp-content/uploads/*
+!wp-content/uploads/.gitkeep
+
+# Ignore upgrades
+wp-content/upgrade/*
+!wp-content/upgrade/.gitkeep
+
+#Ignore plugin languages
+wp-content/languages/plugins/*
+
+# Ignore wordpress config
+wp-config.php
+
+# Theme specific
+wp-content/themes/PROJECT-THEME-HERE/vendor
+wp-content/themes/PROJECT-THEME-HERE/node_modules
